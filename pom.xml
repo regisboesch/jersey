@@ -30,5 +30,11 @@
 			<artifactId>jersey-container-jetty-http</artifactId>
 			<version>2.7</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.sql2o</groupId>
+			<artifactId>sql2o</artifactId>
+			<version>1.5.4</version>
+		</dependency>
 	</dependencies>
 </project>
