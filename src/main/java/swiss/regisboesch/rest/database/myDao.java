@@ -14,7 +14,10 @@ public class myDao {
 	private Sql2o sql2o;
 
 	public myDao() {
-		this.sql2o = new Sql2o("jdbc:h2:~/t", "sa", null);
+		this.sql2o = new Sql2o(
+				"jdbc:sqlite:/home/regis/dev/json/server/database.sqlite3",
+				"",
+				"");
 	}
 
 	public List<Currencies> getAllTasks() {
